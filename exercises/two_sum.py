@@ -1,4 +1,4 @@
-"""Find the numbers sum of which will be equal to the target number"""
+"""Find the sum of numbers which will be equal to the target number O(n)"""
 
 
 def find_two_sum(num_list: list[int], target: int):
