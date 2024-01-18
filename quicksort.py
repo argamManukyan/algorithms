@@ -1,7 +1,5 @@
 """ O(n * log n) """
 
-arr = [1, 22, -9, 99, 14, 89, -5]
-
 
 def quick_sort(elements: list):
 
@@ -16,5 +14,6 @@ def quick_sort(elements: list):
 
 
 if __name__ == "__main__":
+    arr = [1, 22, -9, 99, 14, 89, -5]
     res = quick_sort(arr)
     print(res)

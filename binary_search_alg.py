@@ -1,5 +1,4 @@
 """ O(log n) """
-arr = [1, 2, 3, 4, 7, 11, 19]
 
 
 def binsearch(elements: list[int], target: int) -> int:
@@ -22,6 +21,6 @@ def binsearch(elements: list[int], target: int) -> int:
 
 
 if __name__ == "__main__":
-
+    arr = [1, 2, 3, 4, 7, 11, 19]
     res = binsearch(arr, 11)
     print(res)

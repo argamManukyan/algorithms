@@ -1,7 +1,5 @@
 """ O(log n * n) """
 
-arr = [1, 22, -9, 99, 14, 89, -5, -7]
-
 
 def findmin(elements: list[int]) -> int:
     small_idx = 0
@@ -25,5 +23,6 @@ def selection_sort(elements: list[int]):
 
 
 if __name__ == "__main__":
+    arr = [1, 22, -9, 99, 14, 89, -5, -7]
     res = selection_sort(arr)
     print(res)
