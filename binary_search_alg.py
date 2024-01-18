@@ -20,5 +20,7 @@ def binsearch(elements: list[int], target: int) -> int:
     return False
 
 
-res = binsearch(arr, 11)
-print(res)
+if __name__ == "__main__":
+
+    res = binsearch(arr, 11)
+    print(res)
